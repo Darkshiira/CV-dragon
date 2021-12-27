@@ -1,9 +1,7 @@
 body {
   background-color: #FFF1F1;
   font-family: Garamond, serif;
-
 }
-
 
 hr {
   border-top: 10px dotted #630000;
@@ -13,28 +11,61 @@ hr {
 
 h1 {
   color: #630000;
-  font-family:"Lucida Handwriting", cursive;
+  font-family: "Lucida Handwriting", cursive;
 }
 
 h3 {
   color: #630000;
-  font-family:"Lucida Sans", cursive;
+  font-family: "Lucida Sans", cursive;
 }
+
 h4 {
-  color: black
+  color: black;
+  font-family: Garamond, serif;
+  font-size: 125%;
 }
+
+ol {
+  font-size: 150%;
+}
+
+
 p {
   font-size: 150%;
 }
+
 td {
   border: 0
 }
+
 th {
-  border-style:none;
+  border-style: none;
   color: #630000;
-  font-family:"Lucida Sans", cursive;
+  font-family: "Lucida Sans", cursive;
   font-size: 150%
 }
-ul{
+
+ul {
+  font-family: Garamond, serif;
   font-size: 125%;
+}
+
+/* Class */
+.dragon {
+  float: right;
+  height: 250px;
+  width: 600px;
+}
+.table {
+  border: 2px;
+  border-color: #630000;
+  border-style: dotted;
+  font-family: Garamond, serif;
+  font-size: 120%
+}
+
+.Orchid {
+  float:right;
+  height: 150px;
+  width: 105px;
 }
